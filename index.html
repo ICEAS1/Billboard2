@@ -1,0 +1,387 @@
+<style>
+	.header{
+     background-color: lightgrey;
+     display: flex;
+     width: 1200px;
+     height: 60px;
+     margin-right: auto;
+     margin-left: auto;
+	}
+	.chart-container{
+     background-color: white;
+     margin-right: auto;
+     margin-left: auto;
+     width: 650px;
+     height: 815px;
+	}
+	.header-center{
+		margin-right: auto;
+		margin-left: auto;
+		width: 650px;
+		height: 60px;
+		display: flex;
+	}
+	.chart-sort{
+		background-color: white;
+		width: 650px;
+		height: 60px;
+	}
+    .chart-up{
+    	background-color: lightgreen;
+    	border-radius: 5px;
+    	width: 650px;
+    	height: 90px;
+    	margin-top: 10px;
+    	display: flex;
+    }
+    .chart-new{
+    	background-color: purple;
+    	border-radius: 5px;
+    	width: 650px;
+    	height: 90px;
+    	margin-top: 10px;
+    	display: flex;
+    }
+    .chart-down{
+    	background-color: lightpink;
+    	border-radius: 5px;
+    	width: 650px;
+    	height: 90px;
+    	margin-top: 10px;
+    	display: flex;
+    }
+    .box-logo{
+        width: 125px;
+        height: 60px;
+    }
+    .box-links{
+        width: 445px;
+        height: 40px;
+        padding-top: 20px;
+    }
+    .box-buttons{
+        width: 80px;
+        height: 60px;
+    }
+    .charts-rank{
+        width: 70px;
+        height: 90px;      
+    }
+    .charts-info{
+        width: 340px;
+        height: 90px;
+    }
+    .charts-button{
+        width: 150px;
+        height: 90px;
+    }
+    .charts-img{
+        width: 80px;
+        height: 90px;
+    }
+    .cstw{
+        background-color: orange;
+        border-radius: 5px;
+        width: 90px;
+        height:45px;
+        margin-top: 5px;
+        border: 0px white;       
+    }
+    .cslw{
+        background-color: red;
+        border-radius: 5px;
+        width: 100px;
+        height:45px;
+        margin-top: 5px;
+        border: 0px white;
+    }
+    .csp{
+        background-color: green;
+        border-radius: 5px;
+        width: 90px;
+        height:45px;
+        margin-top: 5px;
+        border: 0px white;        
+    }   
+    .csd{
+        background-color: purple;
+        border-radius: 5px;
+        width: 90px;
+        height:45px;
+        margin-top: 5px;
+        border: 0px white;        
+    }
+    .ls{
+    	width: 125px;
+    	margin-top: 10px;
+    }
+    .lcn{
+        color: white;
+        width: 80px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .lv{
+        color: red;
+        width: 80px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .lp{
+        color: orange;
+        width: 80px;
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 20px;
+    }            
+    .sub{
+        background-color: purple;
+        width: 80px;
+        margin-top: 20px;
+        border: 0px;    
+        border-radius: 5px;
+    	margin-left: 20px;
+    	margin-top: 10px;    
+    }
+    .cr{
+    	text-align: center;
+
+    }
+    .new-cr{
+    	color: orange;
+    	width: 35px;
+    }
+    .up-cr{
+    	color: green;
+    	text-align: center;
+    }
+    .down-cr{
+    	color: red;
+    	width: 35px;
+    }
+    .png-img{
+    	width:80px;
+    	margin-top: 5px;
+    }
+    .but-play{
+        background-color: blue;
+    	border: 0px transparent;
+    	border-radius: 5px;
+    }
+    .but-buy{
+    	background-color: red;
+    	border: 0px transparent;
+    	border-radius: 5px;
+    	margin-left: 20px;
+    	margin-top: 10px;
+    }
+    .info-music{
+        color: darkblue;
+    }
+    .info-autor{
+    	color: grey;
+    }
+    .special-div{
+        height: 10px;
+        width: 40px;
+        margin-top: 10px;
+    }
+	/*вот так ставятся комментарии внутри style*/
+</style>
+<!-- 1 уровень. шапка -->
+<div class="header">
+	<!-- 2 уровень. выравнивание шапки -->
+	<div class="header-center">
+		<!-- 3 уровень -->
+		<!-- лого -->
+		<div class="box-logo">
+			<img class="ls" src="1280px-Billboard_logo.svg.png">
+		</div>
+		<!-- ссылки -->
+		<div class="box-links">
+			<a href="" class="lcn">CHARTS</a>
+			<a href="" class="lcn">NEWS</a>
+			<a href="" class="lv">VIDEOS</a>
+			<a href="" class="lp">PHOTOS</a>			
+		</div>
+		<!-- кнопка подписаться -->
+		<div class="box-buttons">
+			<button class="sub">subscribe</button>
+		</div>
+	</div>
+</div>
+
+<!-- 1 уровень. чат-контейнер -->
+<div class="chart-container">
+	<!-- 2 уровень -->
+	<!-- для кнопок сортировки -->
+	<div class="chart-sort">
+		<button class="cstw">THIS WEEK</button>
+		<button class="cslw">LAST WEEK</button>
+		<button class="csp">PEAK</button>
+		<button class="csd">DURATION</button>
+	</div>
+	<!--все треки в чарте -->
+
+	<!-- трек up -->
+	<div class="chart-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="cr">1</h2>
+			<a class="up-cr">Up</a>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<div><a class="info-music">Crab Rave</a></div>
+			<div><a class="info-autor">Noisestorm x Monstercat</a></div>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="but-play">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="crab-rave.jpg" class="png-img">
+		</div>
+	</div>
+
+	<!-- трек new -->
+	<div class="chart-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="cr">2</h2>
+			<a class="new-cr">New</a>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<div><a class="info-music">All I Need</a></div>
+			<div class="special-div"><a class="info-autor">Slushii</a></div>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="but-buy">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="slushii-to-say-goodbyepng.png" class="png-img">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="chart-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="cr">3</h2>
+			<a class="new-cr">New</a>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<div><a class="info-music">The Attack of Dead Men</a></div>
+			<div><a class="info-autor">Sabaton</a></div>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="but-buy">Купить</button>			
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="ocoviec.jpg" class="png-img">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="chart-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="cr">4</h2>
+			<a class="up-cr">Up</a>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<div><a class="info-music">Ez Katka</a></div>
+			<div><a class="info-autor">DJ Blyatman & Russian Village Boys</a></div>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="but-buy">Купить</button>			
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img class="png-img" src="ez-katka.jpg">
+		</div>		
+	</div>
+
+	<!-- трек down -->
+	<div class="chart-down">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="cr">5</h2>
+			<a class="down-cr">Down</a>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<div><a class="info-music">Thunder</a></div>
+			<div><a class="info-autor">Imagine Dragons</a></div>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="but-buy">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img class="png-img" src="1493466330.jpg">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="chart-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="cr">6</h2>
+			<a class="new-cr">New</a>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<div><a class="info-music">Faded</a></div>
+			<div><a class="info-autor">Alan Walker</a></div>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="but-play">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="faded.jpg" class="png-img">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="chart-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h2 class="cr">7</h2>
+			<a class="up-cr">Up</a>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<div><a class="info-music">Ruckus</a></div>
+			<div><a class="info-autor">Konata Small x Crispin</a></div>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="but-play">Воспроизвести</button>			
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="ruckus.jpg" class="png-img">
+		</div>		
+	</div>
+</div>
+<!--  -->
